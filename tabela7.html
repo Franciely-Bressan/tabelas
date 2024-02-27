@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding:8px;
+        }
+
+        .destaque{
+            background-color: yellow;
+        }
+        col.Nome{
+            background-color: blue ;
+        }
+        col.grupo{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1> Exercico de Tabelas</h1>
+    <table>
+        <colgroup>
+        <col class="Nome">
+        <col class="grupo" span="3">
+       
+</colgroup>
+        <caption> Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>idade</th>
+            <th>Profissao</th>
+        </tr>
+        <tr>
+            <td>Ana Maria </td>
+            <td>F</td>
+            <td>28</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Carlos Alberto</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Psicologo</td>
+        </tr>
+        <tr>
+            <td>Marcela</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Fonoaudiologa</td>
+        </tr>
+
+        <tr class="destaque">
+            <td>Cecilia</td>
+            <td>F</td>
+            <td>85</td>
+            <td>aposentada</td>
+        </tr>
+        <tr>
+            <td>Augusto</td>
+            <td>M</td>
+            <td>63</td>
+            <td>Motorista</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

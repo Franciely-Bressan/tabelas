@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+td.cabecalho{
+    border:  1px solid black;
+    padding: 5px 25px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+th.cabecalho{
+    border:  1px solid black;
+    padding: 5px 25px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+.media{
+    border:  1px solid black;
+    padding: 5px 25px;
+    background-color: gray;
+    color: white;
+    text-align: left;
+}
+td, th{
+    border:  1px solid black;
+    text-align: center; 
+}
+caption{
+    font-size: 1.3em;
+    padding: 5px;
+    font-weight: bold;
+}
